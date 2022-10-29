@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 
 export const NavList = memo(({ nav }) => {
-  console.log(nav);
   return (
     <li className="nav-item">
       <a
