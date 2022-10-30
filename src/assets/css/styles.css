@@ -897,6 +897,41 @@ input[type='checkbox'] {
 }
 
 
+/****************************/
+/*         gallery          */
+/****************************/
+
+.gallery-container{
+	background-color: #262431;
+	margin-top: 7rem;
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+}
+
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	width: 85%;
+	margin: auto;
+	grid-gap: 1.3rem;
+	padding-top: 1.3rem;
+
+}
+
+.gallery img{
+	width: 95%;
+	vertical-align: top;
+	height: 500px;
+	object-fit: cover;
+
+} 
+
+
+/****************************/
+/*       end gallery        */
+/****************************/
+
+
 /************************/
 /*     05. Features     */
 /************************/
@@ -1852,6 +1887,8 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	
+
 
 	/* Features */
 	.tabs .card-body {
@@ -2038,6 +2075,35 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	/* Gallery */
+
+	.gallery-container{
+		background-color: #262431;
+		margin-top: 7rem;
+		padding-top: 10rem;
+		padding-bottom: 7rem;
+	}
+
+
+	.gallery{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		width: 60%;
+		margin: auto;
+		grid-gap:  1rem;
+		padding-top: 2rem;
+	
+	}
+	
+	.gallery img{
+		width: 95%;
+		vertical-align: top;
+		height: 500px;
+		object-fit: cover;
+	
+	} 
+
+    /* End of Gallery */
 
 	/* Features */
 	.tabs {
