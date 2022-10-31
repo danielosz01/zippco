@@ -1,14 +1,16 @@
-import React from "react";
-// import '../../plugins/morphText.js'
+import React, { useEffect } from "react";
 export const Header = () => {
-  // $("#js-rotating").Morphext({
-  //   // The [in] animation type. Refer to Animate.css for a list of available animations.
-  //   animation: "fadeIn",
-  //   // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
-  //   separator: ",",
-  //   // The delay between the changing of each phrase in milliseconds.
-  //   speed: 2000,
-  // });
+  useEffect(() => {
+    $("#js-rotating").Morphext({
+      // The [in] animation type. Refer to Animate.css for a list of available animations.
+      animation: "fadeIn",
+      // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+      separator: ",",
+      // The delay between the changing of each phrase in milliseconds.
+      speed: 2000,
+    });
+  }, [])
+  
   return (
     <>
       <header id="header" className="header">
@@ -16,7 +18,7 @@ export const Header = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <div className="text-container">
+                <div className="text-container animate__animated animate__bounceInLeft">
                   <h1>
                     MOBILE APP <br />
                     FOR{" "}
@@ -38,7 +40,7 @@ export const Header = () => {
               </div>
               <div className="col-lg-6 header-form">
                 <div>
-                  <form>
+                  <form className="animate__animated animate__bounceInLeft">
                     <div className="form-group">
                       <label htmlFor="exampleInputEmail1">Full Name</label>
                       <input
