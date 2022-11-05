@@ -11619,6 +11619,7 @@ section.u-image:not(.u-hover-box),
   min-height: -webkit-fit-content;
   min-height: fit-content;
   max-width: 100%;
+  justify-content: space-around;
 }
 .u-layout-cell {
   position: relative;
