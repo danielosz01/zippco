@@ -1,7 +1,7 @@
 import React from "react";
 import { ServiceList } from "../ui/ServiceList";
 import { FooterChild } from "./FooterChild";
-import { services } from '../../utils/constants';
+import { services } from "../../utils/constants";
 export const Footer = () => {
   return (
     <>
@@ -21,14 +21,9 @@ export const Footer = () => {
               <div className="footer-col middle">
                 <h4>Services</h4>
                 <ul className="list-unstyled li-space-lg">
-                  {
-                    services.map((item) => {
-                         return (<ServiceList 
-                            key={Math.random(10)}
-                            service={item}
-                        />)
-                    })
-                  }
+                  {services.map((item, id) => {
+                    return <ServiceList key={id} service={item} />;
+                  })}
                 </ul>
               </div>
             </div>

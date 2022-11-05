@@ -1,4 +1,6 @@
 import React from 'react'
+import { About } from './components/about/About';
+import { Features } from './components/features/Features';
 import { Footer } from './components/footer/Footer';
 import { Galery } from './components/galery/Galery';
 import { Home } from './components/home/Home'
@@ -10,7 +12,9 @@ export const App = () => {
     <>
       <Home />
       <Services />
-      <Galery />
+      <Features />
+      <About />
+      {<Galery />}
       <Footer />
 
     </>

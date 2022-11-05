@@ -4,7 +4,7 @@ import { NavList } from "./NavList";
 export const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+      <nav className="navbar navbar-expand-md navbar-dark navbar-custom fixed-top animate__animated animate__bounceInLeft">
         <a className="navbar-brand logo-image" href="#">
           <img src="/src/assets/images/logo.svg" alt="alternative" />
         </a>
@@ -24,16 +24,9 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul className="navbar-nav ml-auto">
-            {
-              navs.map((nav, id) => {
-                return (
-                  <NavList 
-                    key={id}
-                    nav={nav}
-                  />
-                )
-              })
-            }
+            {navs.map((nav, id) => {
+              return <NavList key={id} nav={nav} />;
+            })}
           </ul>
           <span className="nav-item social-icons">
             <span className="fa-stack">
