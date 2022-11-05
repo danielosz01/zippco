@@ -3,20 +3,13 @@ import React from "react";
 export const About = () => {
   return (
     <section className="u-clearfix u-grey-90 u-section-6" id="carousel_44d2">
-      <h1 id="our-team" className="u-text u-text-1">Our Team</h1>
-      <div className="u-border-9 u-border-white u-line u-line-horizontal u-line-1"></div>
-      <p className="u-text u-text-2">
+      <h1 style={{width: '80%'}} id="our-team" className="u-text u-text-1 text-center mx-auto">Our Team</h1>
+      <div className="u-border-9 u-border-white u-line u-line-horizontal u-line-1 mx-auto"></div>
+      <p style={{width: '50%'}} className="u-text u-text-2 text-center mx-auto">
         Sample text. Click to select the text box. Click again or double click
         to start editing the text.
       </p>
       <p className="u-align-left u-custom-font u-text u-text-3">
-        Images from{" "}
-        <a
-          href="https://www.freepik.com/photos/people"
-          className="u-border-1 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-link u-button-style u-none u-text-body-alt-color u-btn-1"
-        >
-          Freepik
-        </a>
       </p>
       <div className="u-expanded-width u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div>
       <div className="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
@@ -114,8 +107,8 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-3">
-              <div className="u-container-layout u-container-layout-3">
+            <div className="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+              <div className="u-container-layout u-container-layout-1">
                 <img
                   className="u-expanded-width u-image u-image-3"
                   src="/src/assets/images/ddddddd.jpg"
