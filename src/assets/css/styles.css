@@ -901,12 +901,12 @@ input[type='checkbox'] {
 /*         gallery          */
 /****************************/
 
-.gallery-container{
+/* .gallery-container{
 	background-color: #262431;
 	margin-top: 7rem;
 	padding-top: 5rem;
 	padding-bottom: 7rem;
-}
+} */
 
 .gallery{
 	display: grid;
@@ -2077,12 +2077,12 @@ a:hover.back-to-top {
 
 	/* Gallery */
 
-	.gallery-container{
+	/* .gallery-container{
 		background-color: #262431;
 		margin-top: 7rem;
 		padding-top: 10rem;
 		padding-bottom: 7rem;
-	}
+	} */
 
 
 	.gallery{

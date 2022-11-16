@@ -3,9 +3,6 @@ import React from 'react'
 export const GalleryServices = () => {
   return (
     <>
-
-
-    <div className="gallery-container">
       <div className='gallery'>
         
           <a href="">
@@ -30,8 +27,6 @@ export const GalleryServices = () => {
             <img src="src/assets/images/gallery-6.jpg" alt="" />
           </a>
         </div>
-    </div>
-    
    </>
   )
 }

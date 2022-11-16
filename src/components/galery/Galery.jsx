@@ -3,9 +3,8 @@ import React from "react";
 export const Galery = () => {
   return (
     <>
-    <div className="gallery-container">
       <section className="u-clearfix u-grey-90 u-section-4" id="carousel_2e40">
-          <div className="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+          <div id="our-projects" className="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
             <div className="u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div>
             <div className="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
               <div className="u-gallery-inner u-gallery-inner-1">
@@ -109,14 +108,14 @@ export const Galery = () => {
             </div>
             <div className="u-container-style u-expanded-width-xs u-group u-white u-group-1">
               <div className="u-container-layout u-valign-middle u-container-layout-1">
-                <h2 className="u-text u-text-1">Mobile App Development </h2>
-                <p className="u-text u-text-2">
+                <h2 className="u-text u-text-1 text-dark">Mobile App Development </h2>
+                <p className="u-text u-text-2 text-dark">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                   dolor in reprehenderit in voluptate velit esse cillum dolore eu
                   fugiat nulla pariatur.&nbsp;
                 </p>
-                <p className="u-text u-text-3">
+                <p className="u-text u-text-3 text-dark">
                   Images from{" "}
                   <a
                     href='https://www.freepik.com/psd/technology"'
@@ -135,8 +134,6 @@ export const Galery = () => {
             </div>
           </div>
       </section>
-    </div>
-      
     </>
   );
 };

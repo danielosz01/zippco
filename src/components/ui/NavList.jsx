@@ -4,7 +4,8 @@ export const NavList = memo(({ nav }) => {
   const navDefault = nav.toString().toLowerCase()
   const navName = {
     'HOME': 'header',
-    'OUR TEAM': 'our-team'
+    'OUR TEAM': 'our-team',
+    'OUR PROJECTS': 'our-projects'
   }
   return (
     <li className="nav-item">
