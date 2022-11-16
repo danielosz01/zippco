@@ -13,6 +13,7 @@ export const navs = [
     'SERVICES',
     'FEATURES',
     'OUR TEAM',
+    'OUR PROJECTS',
 ]
 
 export const allServices = [
