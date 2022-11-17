@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Form } from "../Form/Form";
+const $ = jQuery
 export const Header = () => {
   useEffect(() => {
     $("#js-rotating").Morphext({
