@@ -16,7 +16,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-1.jpg"
+                      src="/assets/images/gallery-1.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-1">
@@ -32,7 +32,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-2.jpg"
+                      src="/assets/images/gallery-2.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-2">
@@ -48,7 +48,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-3.jpg"
+                      src="/assets/images/gallery-3.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-3">
@@ -64,7 +64,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-4.jpg"
+                      src="/assets/images/gallery-4.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-4">
@@ -80,7 +80,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-5.jpg"
+                      src="/assets/images/gallery-5.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-5">
@@ -96,7 +96,7 @@ export const Galery = () => {
                   >
                     <img
                       className="u-back-image u-expanded"
-                      src="/src/assets/images/gallery-6.jpg"
+                      src="/assets/images/gallery-6.jpg"
                     />
                   </div>
                   <div className="u-over-slide u-shading u-over-slide-6">

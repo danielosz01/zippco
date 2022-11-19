@@ -6,7 +6,7 @@ export const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-md navbar-dark navbar-custom fixed-top animate__animated animate__bounceInLeft">
         <a className="navbar-brand logo-image" href="#">
-          <img src="/src/assets/images/logo.svg" alt="alternative" />
+          <img src="/assets/images/logo.svg" alt="alternative" />
         </a>
 
         <button

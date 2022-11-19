@@ -19,7 +19,7 @@ export const About = () => {
               <div className="u-container-layout u-container-layout-1">
                 <img
                   className="u-expanded-width u-image u-image-1"
-                  src="/src/assets/images/happy-man-with-long-thick-ginger-beard-has-friendly-smile_273609-16616.jpg"
+                  src="/assets/images/happy-man-with-long-thick-ginger-beard-has-friendly-smile_273609-16616.jpg"
                   data-image-width="626"
                   data-image-height="417"
                 />
@@ -111,7 +111,7 @@ export const About = () => {
               <div className="u-container-layout u-container-layout-1">
                 <img
                   className="u-expanded-width u-image u-image-3"
-                  src="/src/assets/images/ddddddd.jpg"
+                  src="/assets/images/ddddddd.jpg"
                   data-image-width="626"
                   data-image-height="417"
                 />
