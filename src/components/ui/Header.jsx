@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Form } from "../Form/Form";
+import { Form } from "../form/Form";
 const $ = jQuery
 export const Header = () => {
   useEffect(() => {
@@ -32,12 +32,6 @@ export const Header = () => {
                     Leno is one of the easiest and feature packed marketing
                     automation apps in the market. Download it today!
                   </p>
-                  <a className="btn-solid-lg page-scroll" href="#">
-                    <i className="fab fa-apple"></i>APP STORE
-                  </a>
-                  <a className="btn-solid-lg page-scroll" href="#">
-                    <i className="fab fa-google-play"></i>PLAY STORE
-                  </a>
                 </div>
               </div>
               <div className="col-lg-6 header-form">
