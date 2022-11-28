@@ -22,15 +22,14 @@ export const Header = () => {
               <div className="col-lg-6">
                 <div className="text-container animate__animated animate__bounceInLeft">
                   <h1>
-                    MOBILE APP <br />
-                    FOR{" "}
+                    PROVIDE THE BEST FOR 
+                    <br />
                     <span id="js-rotating">
-                      DESIGNERS, MARKETERS, DEVELOPERS
+                      SOFTWARE, WEB DESIGN, APP DESIGN
                     </span>
                   </h1>
-                  <p className="p-large">
-                    Leno is one of the easiest and feature packed marketing
-                    automation apps in the market. Download it today!
+                  <p className="p-large py-2">
+                  <b style={{lineHeight: '30px'}}> We provide you the best of the web application, design application, and we can maintain your app for improve its performance and improve its interfaces and features. <br />Zippco is your solution for your projects and you can get in contact with us filling out the form.</b>
                   </p>
                 </div>
               </div>

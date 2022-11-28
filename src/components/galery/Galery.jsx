@@ -108,28 +108,10 @@ export const Galery = () => {
             </div>
             <div className="u-container-style u-expanded-width-xs u-group u-white u-group-1">
               <div className="u-container-layout u-valign-middle u-container-layout-1">
-                <h2 className="u-text u-text-1 text-dark">Mobile App Development </h2>
+                <h2 className="u-text u-text-1 text-dark">We present our projects</h2>
                 <p className="u-text u-text-2 text-dark">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                  dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur.&nbsp;
+                Zippco is a technology agency that provide you development and solutions to its clients, making reports and being constant with the comunication and work to realize, we repect the times and we assure you the project done as soon as possible.&nbsp;
                 </p>
-                <p className="u-text u-text-3 text-dark">
-                  Images from{" "}
-                  <a
-                    href='https://www.freepik.com/psd/technology"'
-                    className="u-active-none u-border-2 u-border-grey-75 u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1"
-                  >
-                    Freepik
-                  </a>
-                </p>
-                <a
-                  href="https://nicepage.com/wysiwyg-html-editor"
-                  className="u-active-palette-1-light-1 u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-2"
-                >
-                  learn more
-                </a>
               </div>
             </div>
           </div>

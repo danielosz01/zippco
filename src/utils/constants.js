@@ -20,31 +20,31 @@ export const allServices = [
     {
         title: 'WEB DESIGN',
         image: '/assets/images/webicon.svg',
-        description: 'Intriguing web designs and fascinating results, makes you happy and earns us a loyal customer – Always there, looking after you!',
+        description: 'We design the web that you need, being illustrative and intuitive that can fit with your website or application.',
     },
     {
         title: 'APPS DEVELOPMENT',
         image: '/assets/images/appsicon.svg',
-        description: "We push. We make you nervous. We get results. Let's get to work. Whenever you need, you will find always there, looking after you!",
+        description: "We develop the application or website, being intuitive, stable, fast and with the best performance possible for your needs coupled for your requirements.",
     },
     {
         title: 'SEO',
         image: '/assets/images/seoicon.svg',
-        description: "As your business flourishes, we grow as a business and so our team makes sure that your growth is supported and we go hand in hand.",
+        description: "Do you need to position your website or application?, we do it!, we will optimize the engine of search for your website or application on google having a good and visible position.",
     },
     {
         title: 'WEB SCRAPING',
         image: '/assets/images/scrapingicon.svg',
-        description: "We work to deliver results, celebrate entrepreneurship, stand for justice, and believe in the progress of common good.",
+        description: "Have you ever need get some data from some application?, We do it for you!, we provide you all data from some website or application as soon as possible coupled for your needs.",
     },
     {
         title: 'WEB 3 DEVELOPMENT',
         image: '/assets/images/web3icon.svg',
-        description: "This free template is based on the popular Twitter Bootstrap Frameowrk. You can easily customize if you have little Bootstrap 3 knowledge.",
+        description: "If you need some DEX or a Smart Contract for your business, we do it for you!, we get to you development of smart contracts, DEX and some feature you need to implement in a project already done.",
     },
     {
         title: 'WEB OPTIMIZATION',
         image: '/assets/images/optimizationicon.svg',
-        description: "Every project begins with a round of research and discovery. We dig through the values, strategy, and organizational culture that make you unique.",
+        description: "Have you ever need some help or support for some project you are working?, be easy, you are not alone anymore!, we will support and maintain your projects developing some feature or provide maintenance depending of you requirements",
     },
 ]

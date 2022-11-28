@@ -6,8 +6,7 @@ export const About = () => {
       <h1 style={{width: '80%'}} id="our-team" className="u-text u-text-1 text-center mx-auto">Our Team</h1>
       <div className="u-border-9 u-border-white u-line u-line-horizontal u-line-1 mx-auto"></div>
       <p style={{width: '50%'}} className="u-text u-text-2 text-center mx-auto">
-        Sample text. Click to select the text box. Click again or double click
-        to start editing the text.
+      Meet our work team.
       </p>
       <p className="u-align-left u-custom-font u-text u-text-3">
       </p>
@@ -24,7 +23,7 @@ export const About = () => {
                   data-image-height="417"
                 />
                 <h4 className="u-custom-font u-font-montserrat u-text u-text-4">
-                  Alex Grinfield
+                  Eyder Garcia
                 </h4>
                 <h5 className="u-custom-font u-text u-text-font u-text-grey-10 u-text-5">
                   programming guru
@@ -116,10 +115,10 @@ export const About = () => {
                   data-image-height="417"
                 />
                 <h4 className="u-custom-font u-font-montserrat u-text u-text-8">
-                  Jeffrey Brown
+                  Daniel Ostos
                 </h4>
                 <h5 className="u-custom-font u-text u-text-font u-text-grey-10 u-text-9">
-                  manager
+                programming guru
                 </h5>
                 <div className="u-social-icons u-spacing-10 u-social-icons-3">
                   <a className="u-social-url" target="_blank" href="">

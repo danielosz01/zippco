@@ -12,8 +12,7 @@ export const Footer = () => {
               <div className="footer-col">
                 <h4>About Zippco Solution</h4>
                 <p>
-                  We're passionate about creating the best mobile apps for
-                  personal development
+                We are people passionate about technology and creating the best possible application for your business, we wait for you!.
                 </p>
               </div>
             </div>
